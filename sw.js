@@ -2,7 +2,7 @@
 // Everything the app needs is precached at install time, so no screen depends
 // on having been opened before.
 
-const VERSION = 'v0.2.1';
+const VERSION = 'v0.3.0';
 const CACHE = `driving-app-${VERSION}`;
 
 const PRECACHE = [
@@ -18,6 +18,7 @@ const PRECACHE = [
   './content/stages.json',
   './content/fines.json',
   './content/quizzes/stage1.json',
+  './content/documents.json',
 ];
 
 self.addEventListener('install', (event) => {
