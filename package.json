@@ -1,0 +1,13 @@
+{
+  "name": "algeria-driving-app",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "description": "PWA for driving education in Algeria",
+  "scripts": {
+    "test": "node --test tests/logic.test.js",
+    "build": "node scripts/build-web.mjs",
+    "serve": "npx --yes serve web -l 8080"
+  },
+  "license": "UNLICENSED"
+}
